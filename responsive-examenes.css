@@ -15,32 +15,33 @@
     .header-div {
         display: flex;
         align-items: center;
-        gap: 20px;
-        font-size: 15px;
+        gap: 30px;
         color: #000000;
         width: 100%;
     }
 
     .header-div button {
-    white-space: nowrap;
-    color: #000000;
-    border: 2px solid #000000;
-    padding: 5px 12px;
-    cursor: pointer;
-    font-size: 13px;
-    border-radius: 4px;
-    background-color: transparent;
+        white-space: nowrap;
+        color: #000000;
+        border: 2px solid #000000;
+        padding: 5px 12px;
+        cursor: pointer;
+        font-size: 13px;
+        border-radius: 4px;
+        background-color: transparent;
     }
 
     .logo {
         height: 80px;
-        margin-right: 10rem;
+        margin-right: 20rem;
         margin-left: 5rem;
     }
 
     .admin-nombre {
         margin-right: auto;
         margin-left: 35rem;
+        font-size: 17px;
+        white-space: nowrap;
     }
 
     .boton-salir {
@@ -48,7 +49,6 @@
         border: 2px solid #000000;
         padding: 5px 12px;
         cursor: pointer;
-        font-size: 13px;
         border-radius: 4px;
         background-color: transparent;
     }
@@ -72,11 +72,12 @@
 
     .formulario {
         background-color: #ffff;
-        max-width: 30%;
-        padding: 10px;
+        width: 70%;
+        padding: 20px;
         margin: 20px;
         border-radius: 8px;
         margin-left: 12.5rem;
+        border: 2px solid var(--border);
     }
 
     .formulario h2 {
@@ -86,9 +87,21 @@
     }
 
     .form-group {
-        
-        margin-bottom: 15px;
-        margin: 10px;
+        margin-bottom: 10px;
+        margin: 5px;
+        max-width: 100%;
+        grid-template-columns: 1fr 1fr;
+        flex: 1; /* Hace que ambas columnas tengan el mismo tamaño */
+        display: flex;
+        flex-direction: column; 
+    }
+
+    /* Fila que contiene las columnas */
+    .fila-formulario {
+    display: flex;
+    gap: 20px; /* Espacio entre las columnas */
+    margin-bottom: 15px;
+    margin-left: 6px;
     }
 
     .form-group label {
@@ -107,23 +120,22 @@
         border: 1px solid #000000;
         border-radius: 4px;
         padding: 4px;
-        width: 50%;
+        width: 95.5%;
     }
 
     .tabla-container {
         background: #ffffff;
         border-radius: 10px;
-        border: 1px solid var(--border);
-        padding: 8px;
-        margin: 8px auto;
-        max-width: 40%;
-        margin-left: 50rem;
+        border: 2px solid var(--border);
+        margin: 20px auto;
+        width: 70%;
+        margin-right: 40rem;
     }
 
     .tabla-header {
         display: flex;
         justify-content: space-around;
-        align-items: center;
+        align-items:     center;
         margin-bottom: 15px;
     }
 
@@ -166,6 +178,7 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 10px;
+        margin: 10px;
     }
 
     #btnAgregarPregunta {
@@ -176,6 +189,12 @@
         font-size: 12px;
         padding: 5px 10px;
         cursor: pointer;
+        margin: auto 10px;
     }
 
+
+    .examenes-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
