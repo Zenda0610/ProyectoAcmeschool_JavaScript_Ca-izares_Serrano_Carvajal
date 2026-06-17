@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 98, 255, 0.564);
 }
 
 .header-div {
@@ -70,6 +71,7 @@
     margin: 20px;
     border-radius: 8px;
     margin-top: 1px;
+    box-shadow: 0 2px 10px rgba(0, 98, 255, 0.564);
 }
 
 .formulario-usuarios h2 {
@@ -92,6 +94,15 @@
     border-radius: 4px;
     padding: 4px;
     width: 80%;
+    box-shadow: 0 2px 10px rgba(0, 98, 255, 0.564);
+}
+
+.form-group-usuarios select {
+    border: 2px solid #000000;
+    border-radius: 4px;
+    padding: 4px;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 98, 255, 0.564);
 }
 
 .tabla-container-usuarios {
@@ -100,7 +111,8 @@
     border: 1px solid var(--border);
     padding: 10px;
     margin: 10px auto;
-    max-width: 80%;
+    max-width: 85%;
+    box-shadow: 0 2px 10px rgba(0, 98, 255, 0.564);
 }
 
 .tabla-header-usuarios {
@@ -172,4 +184,12 @@ tr:last-child td {
     border: 1px solid var(--border);
     font-size: 12px;
     padding: 5px 10px;
+    cursor: pointer;
 }
+
+.form-group-usuarios select {
+    border: 2px solid #000000;
+    border-radius: 4px;
+    padding: 4px;
+    width: 82.5%;
+    }
