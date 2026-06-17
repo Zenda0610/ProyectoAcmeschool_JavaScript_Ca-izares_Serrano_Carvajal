@@ -199,13 +199,13 @@
 
     .logo {
         height: 80px;
-        margin-right: 15rem;
-        margin-left: 10rem;
+        margin-right: 5rem;
+        margin-left: 8rem;
     }
 
     .admin-nombre {
         margin-right: auto;
-        margin-left: 35rem;
+        margin-left: 25rem;
         font-size: 17px;
         white-space: nowrap;
     }
